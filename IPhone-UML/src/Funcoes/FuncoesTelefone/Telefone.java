@@ -1,5 +1,7 @@
 package Funcoes.FuncoesTelefone;
 
 public interface Telefone{
-    public void telefonar();
+    public void ligar();
+    public void atender();
+    public void correiovoz();
 }

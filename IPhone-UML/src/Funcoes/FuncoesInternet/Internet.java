@@ -1,5 +1,8 @@
 package Funcoes.FuncoesInternet;
 
 public interface Internet {
-    public void navegar();
+    public void atualizar();
+    public void exibir();
+    public void adicionar();
+
 }

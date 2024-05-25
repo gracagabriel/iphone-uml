@@ -1,12 +1,18 @@
 package Iphone;
 
+import Funcoes.FuncoesInternet.AdicionarAba;
+import Funcoes.FuncoesInternet.AtualizarPagina;
 import Funcoes.FuncoesInternet.ExibirPagina;
-import Funcoes.FuncoesInternet.Internet;
+
 
 public class Iphone {
     public static void main(String[] args) {
-        Internet net = new ExibirPagina();
+        AdicionarAba adc = new AdicionarAba();
+        AtualizarPagina att = new AtualizarPagina();
+        ExibirPagina exib = new ExibirPagina();
 
-        net.navegar();
+        adc.adicionar();
+        att.atualizar();
+        exib.exibir();
     }    
 }
